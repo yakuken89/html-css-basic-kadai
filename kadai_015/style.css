@@ -1,0 +1,37 @@
+body{
+  font-family: "Arial","Meiryo",sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.decoration {
+  font-family: sans-serif;
+  font-size: 2rem; 
+  text-shadow: 3px 3px 6px gray;
+  letter-spacing: 1.2em
+}
+
+
+#parent p {
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+.text-blue {
+  color: skyblue;
+}
+.text-pink {
+  color: rgb(255, 192, 203);
+}
+p {
+ color: black;
+}
+.google-fonts {
+  /* ここにGoogle Fontsを指定します */
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
