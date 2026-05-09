@@ -1,0 +1,75 @@
+h1{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(244, 79, 79);
+}
+
+#parent{
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-basis: 25%;
+}
+.contents{
+  border: solid  3px rgb(238, 204, 204);
+  padding:  10px 15px 10px 15px;
+  margin: 20px 10px 20px 10px; 
+  text-align: center;
+}
+
+.contents image{
+  margin: 10px 0px 10px 0px;
+  width: 70%;
+}
+
+h2::before{
+  content: "⚫︎";
+  color: rgb(239, 111, 139);
+}
+
+h2{
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+p{
+  font-size: 20px;
+  margin: 0;
+}
+
+.contents p:nth-of-type(2)::first-letter{
+  color: rgb(97, 206, 249) ;
+  font-weight: bold;
+}
+ 
+footer{
+  font-size: 20px;
+  background-color: rgb(244, 79, 79); 
+  text-align: center;
+}
+a:link{
+  color: rgb(255, 255, 255);
+}
+a:visited{
+  color: rgb(193, 234, 251);
+}
+a:hover{
+  color: rgb(245, 178, 168);
+}
+
+@media screen and (max-width: 768px) {
+    #parent {
+      max-width: 768px;
+      flex-direction: column;
+    }
+    p{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 30px;
+    }
+}
